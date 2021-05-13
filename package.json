@@ -28,6 +28,12 @@
         "url": "https://github.com/glencjones/node-stratum-pool.git"
     },
     "dependencies": {
+<<<<<<< HEAD
+=======
+        "equihashjs-verify": "*",
+        "bignum": "*",
+        "base58-native": "*",
+>>>>>>> ebdcdeb161419efb0130b5b7ba0d5d7c4571345c
         "async": "*",
         "base58-native": "*",
         "bignum": "*",
