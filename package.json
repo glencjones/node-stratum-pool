@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+    "homepage": "https://github.com/glencjones/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+        "url": "https://github.com/glencjones/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -25,18 +25,18 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/joshuayabut/node-stratum-pool.git"
+        "url": "https://github.com/glencjones/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "git+https://github.com/glencjones/equihashverify.git",
-        "bignum": "*",
-        "base58-native": "*",
         "async": "*",
-        "merkle-bitcoin": "*",
+        "base58-native": "*",
+        "bignum": "*",
         "bitcoinjs-lib-zcash": "*",
+        "equihashjs-verify": "*",
+        "merkle-bitcoin": "git+https://github.com/glencjones/merkle-bitcoin.git",
         "promise": "*"
     },
     "engines": {
-        "node": ">=7"
+        "node": "*"
     }
 }
